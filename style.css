@@ -311,3 +311,238 @@ h1 {
     background-color: black;
     color: white;
 }
+
+/* =================================
+   TOPICS PAGE
+================================= */
+
+.topics-page {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+
+/* TITLE */
+
+.topics-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 62px;
+    font-weight: normal;
+    text-align: center;
+
+    margin: 0;
+    padding: 10px 0 5px;
+}
+
+
+/* INTRODUCTION */
+
+.topics-intro {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    text-align: center;
+
+    margin: 0 0 18px;
+}
+
+
+/* =================================
+   COLOUR KEY
+================================= */
+
+.colour-key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 20px 20px;
+}
+
+.colour-key h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px;
+    font-weight: normal;
+
+    margin: 0 0 15px;
+}
+
+.colour-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+.colour-item {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.colour-item p {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+
+    margin: 0;
+}
+
+
+/* COLOUR SQUARES */
+
+.colour-swatch {
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+
+    border: 1px solid rgba(35, 45, 38, 0.4);
+}
+
+.plant-colour {
+    background-color: #A5C1B1;
+}
+
+.animal-colour {
+    background-color: #B6C5D6;
+}
+
+.general-colour {
+    background-color: #D9C5A5;
+}
+
+
+/* =================================
+   DECORATIVE LINE
+================================= */
+
+.topics-line {
+    width: 100%;
+    border-top: 4px dotted black;
+}
+
+
+/* =================================
+   TOPIC GRID
+================================= */
+
+.topics-grid {
+    display: grid;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 45px 40px;
+
+    padding: 45px 6.5%;
+
+    align-items: center;
+}
+
+
+/* =================================
+   TOPIC BUTTONS
+================================= */
+
+.topic-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 55px;
+    padding: 12px;
+
+    border: 1px solid rgba(35, 45, 38, 0.55);
+    border-radius: 2px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #171b18;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* GENERAL TOPICS */
+
+.topic-button.general {
+    background-color: #D9C5A5;
+}
+
+
+/* PLANT AND ECOSYSTEM TOPICS */
+
+.topic-button.plant {
+    background-color: #A5C1B1;
+}
+
+
+/* HUMAN AND ANIMAL TOPICS */
+
+.topic-button.animal {
+    background-color: #B6C5D6;
+}
+
+
+/* HOVER EFFECT */
+
+.topic-button:hover {
+    background-color: #354D40;
+    color: white;
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+/* KEYBOARD ACCESSIBILITY */
+
+.topic-button:focus-visible {
+    outline: 2px solid #354D40;
+    outline-offset: 4px;
+}
+
+
+/* =================================
+   BACK BUTTON
+================================= */
+
+.back-button {
+    display: inline-block;
+
+    margin-left: 25px;
+    padding: 8px 35px;
+
+    background-color: #A5C1B1;
+
+    border: 1px solid rgba(35, 45, 38, 0.55);
+    border-radius: 2px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: 700;
+
+    text-decoration: none;
+    color: black;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #354D40;
+    color: white;
+}
