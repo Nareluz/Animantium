@@ -293,3 +293,21 @@ h1 {
 .back-button:hover {
     background-color: #8eae9c;
 }
+.next-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 25px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.next-button:hover {
+    background-color: black;
+    color: white;
+}
