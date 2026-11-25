@@ -189,3 +189,25 @@ h1 {
 
     margin-top: 12px;
 }
+/* HOME BUTTON */
+
+.home-button {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 25px;
+    padding: 10px 25px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+
+    color: black;
+    text-decoration: none;
+
+    border: 1px solid black;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: black;
+    color: white;
+}
