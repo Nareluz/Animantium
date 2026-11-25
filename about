@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Animantium</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="about-page">
+
+        <h1 class="about-title">About Animantium</h1>
+
+        <div class="about-line"></div>
+
+        <section class="about-columns">
+
+            <article class="about-section">
+
+                <h2>Why does Animantium exist?</h2>
+
+                <p>
+                    Once, I was an IGCSE student, and finding study
+                    materials that actually helped me was difficult.
+                    That is why I am now creating this website:
+                    to help other students.
+                </p>
+
+            </article>
+
+            <article class="about-section">
+
+                <h2>The person behind this project</h2>
+
+                <p>
+                    I am a 17-year-old girl who has recently finished
+                    school and is looking forward to starting university.
+                    I love Biology, so I started thinking about how I
+                    could spend my free time doing something I enjoy.
+                    And if I can also help other people along the way,
+                    that makes me even happier.
+                </p>
+
+            </article>
+
+        </section>
+
+        <div class="about-line"></div>
+
+        <section class="photo-gallery">
+
+            <figure>
+                <img src="crabs.jpg" alt="Crabs found during a nature exploration">
+                <figcaption>Wildlife observations</figcaption>
+            </figure>
+
+            <figure>
+                <img src="flower.jpg" alt="Pink flower photographed in nature">
+                <figcaption>Botanical discoveries</figcaption>
+            </figure>
+
+            <figure>
+                <img src="sea.jpg" alt="A peaceful seaside landscape">
+                <figcaption>Nature escapes</figcaption>
+            </figure>
+
+            <figure>
+                <img src="forest.jpg" alt="A green forest during a nature trip">
+                <figcaption>Forest exploration</figcaption>
+            </figure>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
