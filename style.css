@@ -211,3 +211,85 @@ h1 {
     background-color: black;
     color: white;
 }
+
+/* TOPICS PAGE */
+
+.topics-page {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+/* TITLE */
+
+.topics-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 62px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 20px;
+}
+
+/* DOTTED LINE */
+
+.topics-line {
+    width: 100%;
+    border-top: 4px dotted black;
+}
+
+/* TOPIC BUTTONS */
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 45px 40px;
+    padding: 45px 6.5%;
+    align-items: center;
+}
+
+.topic-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 55px;
+    padding: 10px;
+
+    background-color: #a5c1b1;
+    border: 3px solid black;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    transition: background-color 0.2s;
+}
+
+.topic-button:hover {
+    background-color: #8eae9c;
+}
+
+/* BACK BUTTON */
+
+.back-button {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 8px 35px;
+
+    background-color: #a5c1b1;
+    border: 3px solid black;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.back-button:hover {
+    background-color: #8eae9c;
+}
