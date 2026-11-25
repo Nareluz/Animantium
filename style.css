@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -48,7 +48,7 @@ body {
 /* TITLE */
 
 h1 {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 62px;
     font-weight: normal;
 
@@ -80,7 +80,7 @@ h1 {
     color: black;
     text-decoration: none;
 
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 19px;
     font-weight: bold;
 }
@@ -113,7 +113,7 @@ h1 {
 /* PAGE TITLE */
 
 .about-title {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 62px;
     font-weight: normal;
     text-align: center;
@@ -146,7 +146,7 @@ h1 {
 }
 
 .about-section h2 {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: normal;
 
@@ -154,7 +154,7 @@ h1 {
 }
 
 .about-section p {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 27px;
     line-height: 1.45;
 }
@@ -184,7 +184,7 @@ h1 {
 }
 
 .photo-gallery figcaption {
-    font-family: Georgia, serif;
+    font-family: 'Playfair Display', serif;
     font-size: 17px;
 
     margin-top: 12px;
