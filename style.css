@@ -548,22 +548,24 @@ h1 {
 }
 
 .about-animantium {
-    max-width: 750px;
-    margin: 70px auto 40px;
-    padding: 0 25px;
+    width: 100%;
+    max-width: 650px;
+    margin: 45px auto 0;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .about-animantium h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 28px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
     color: #355B4C;
-    margin-bottom: 20px;
 }
 
 .about-animantium p {
     font-family: 'Playfair Display', serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.8;
     color: #444;
 }
