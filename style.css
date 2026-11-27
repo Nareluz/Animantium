@@ -569,3 +569,490 @@ h1 {
     line-height: 1.8;
     color: #444;
 }
+
+/* =========================================
+   TOPIC 2 - GENERAL DESIGN
+========================================= */
+
+.topic2-page {
+    width: 100%;
+    background-color: #ffffff;
+    color: #252d28;
+    padding: 0 0 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+.topic2-page * {
+    box-sizing: border-box;
+}
+
+.topic2-header {
+    padding: 15px 4% 0;
+    text-align: center;
+}
+
+.topic2-header h1 {
+    font-size: 38px;
+    font-weight: normal;
+    margin: 10px 0 18px;
+}
+
+.topic2-divider {
+    width: 100%;
+    border-top: 3px dotted #355B4C;
+}
+
+.topic2-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.topic2-navigation a {
+    color: #355B4C;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topic2-navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   SECTIONS AND HEADINGS
+========================================= */
+
+.topic2-section {
+    padding: 28px 5%;
+}
+
+.topic2-heading {
+    display: table;
+    max-width: 100%;
+    padding: 9px 24px;
+    margin: 10px 0 22px;
+
+    background-color: #A8C5B2;
+    color: #243B30;
+
+    border-radius: 30px;
+
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.topic2-subheading {
+    color: #355B4C;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 30px 0 14px;
+}
+
+.topic2-intro,
+.topic2-description {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 12px 0 18px;
+}
+
+.topic2-list {
+    padding-left: 25px;
+    margin: 12px 0 22px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.topic2-list li {
+    padding-left: 4px;
+    margin-bottom: 7px;
+}
+
+.topic2-note {
+    background-color: #E8F0EA;
+    border-left: 4px solid #355B4C;
+    border-radius: 5px;
+
+    padding: 14px 18px;
+    margin: 22px 0;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   TABLES
+========================================= */
+
+.topic2-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin: 22px 0 30px;
+}
+
+.topic2-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.topic2-table th,
+.topic2-table td {
+    border: 1px solid #AAB7AD;
+    padding: 14px 16px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.topic2-table thead th {
+    background-color: #E8F0EA;
+    color: #284536;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topic2-table tbody th {
+    background-color: #F3F6F2;
+    font-weight: bold;
+}
+
+.comparison-table th:first-child {
+    width: 19%;
+}
+
+.comparison-table th:nth-child(2),
+.comparison-table th:nth-child(3) {
+    width: 40.5%;
+}
+
+.bacterial-table th {
+    width: 25%;
+}
+
+.bacterial-table td {
+    width: 75%;
+}
+
+.specialised-table th {
+    width: 25%;
+}
+
+.specialised-table td {
+    width: 75%;
+}
+
+.specialised-table ul {
+    padding-left: 22px;
+    margin-top: 10px;
+}
+
+.organisation-table th:first-child {
+    width: 19%;
+}
+
+.organisation-table th:nth-child(2) {
+    width: 56%;
+}
+
+.organisation-table th:nth-child(3) {
+    width: 25%;
+}
+
+
+/* =========================================
+   SECONDARY HEADINGS
+========================================= */
+
+.secondary-heading {
+    margin-top: 48px;
+    background-color: #A8C5B2;
+}
+
+
+/* =========================================
+   CELL IMAGES
+========================================= */
+
+.topic2-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+    margin: 28px 0 45px;
+}
+
+.topic2-figure {
+    margin: 0;
+    text-align: center;
+}
+
+.topic2-figure img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+
+    background-color: #F7F8F5;
+    border: 1px solid #E0E7E0;
+    border-radius: 5px;
+}
+
+.topic2-figure figcaption {
+    font-size: 16px;
+    color: #355B4C;
+    margin-top: 12px;
+}
+
+.diagram-grid .topic2-figure img {
+    height: 300px;
+    padding: 12px;
+    background-color: #ffffff;
+}
+
+
+/* =========================================
+   CELL DIVISION
+========================================= */
+
+.topic2-subsection {
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    gap: 45px;
+
+    margin: 25px 0 40px;
+}
+
+.topic2-text-block .topic2-subheading {
+    margin-top: 0;
+}
+
+.division-figure {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.division-figure img {
+    height: 260px;
+    object-fit: contain;
+}
+
+
+/* =========================================
+   SIZE OF SPECIMENS - 2.2
+========================================= */
+
+.size-section {
+    margin-top: 25px;
+    background-color: #FAFBF9;
+    border-top: 3px dotted #355B4C;
+}
+
+.size-section .topic2-heading {
+    background-color: #A8C5B2;
+}
+
+.size-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+    align-items: start;
+}
+
+.size-block {
+    padding: 22px;
+    background-color: #ffffff;
+    border: 1px solid #E0E7E0;
+    border-radius: 8px;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.size-block > p {
+    margin: 14px 0;
+}
+
+.size-block .topic2-subheading {
+    margin-top: 0;
+}
+
+.formula-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    background-color: #E8F0EA;
+    border-radius: 8px;
+
+    padding: 22px;
+    margin: 20px 0;
+
+    text-align: center;
+}
+
+.formula-label {
+    font-size: 14px;
+    color: #355B4C;
+}
+
+.formula-card strong {
+    font-size: 19px;
+    color: #284536;
+}
+
+.formula-list {
+    background-color: #F3E6D5;
+}
+
+.formula-list span {
+    font-size: 18px;
+    color: #49382C;
+}
+
+.example-card {
+    background-color: #F3F6F2;
+    border-left: 4px solid #A8C5B2;
+    border-radius: 5px;
+
+    padding: 18px;
+    margin: 20px 0;
+}
+
+.example-card strong {
+    color: #355B4C;
+}
+
+.example-card p {
+    margin: 10px 0;
+}
+
+.calculation {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    color: #355B4C;
+    margin: 15px 0;
+}
+
+.topic2-reminder {
+    background-color: #F8EFC1;
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.unit-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    background-color: #E8F0EA;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.unit-card span {
+    font-size: 21px;
+    color: #355B4C;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.topic2-footer {
+    padding: 20px 5%;
+    text-align: center;
+}
+
+.topic2-home-button {
+    display: inline-block;
+    margin: 20px 10px 0;
+    padding: 10px 24px;
+
+    border: 1px solid #355B4C;
+    border-radius: 3px;
+
+    color: #355B4C;
+    text-decoration: none;
+    font-size: 16px;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.topic2-home-button:hover {
+    background-color: #355B4C;
+    color: white;
+}
+
+
+/* =========================================
+   RESPONSIVE LAYOUT
+========================================= */
+
+@media (max-width: 800px) {
+
+    .topic2-header h1 {
+        font-size: 30px;
+    }
+
+    .topic2-section {
+        padding: 22px 4%;
+    }
+
+    .topic2-image-grid {
+        gap: 15px;
+    }
+
+    .topic2-figure img {
+        height: 200px;
+    }
+
+    .size-content {
+        grid-template-columns: 1fr;
+    }
+
+    .topic2-subsection {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .topic2-image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .topic2-figure img,
+    .diagram-grid .topic2-figure img {
+        height: 260px;
+    }
+
+    .topic2-heading {
+        font-size: 20px;
+    }
+
+    .topic2-table {
+        min-width: 650px;
+    }
+
+    .topic2-navigation {
+        font-size: 13px;
+    }
+
+}
